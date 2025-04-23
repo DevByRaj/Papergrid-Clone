@@ -43,9 +43,10 @@
     justify-content: space-between;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.947);
-    color: white;
+    color: rgba(255, 255, 255, 0.872);
     list-style: none;
 }
+
 
 .navlinks{
     display: flex;
@@ -56,16 +57,23 @@
 .middle{
     margin-left: 50px;
 }
+
 .nav-logo-right{
     display: flex;
     align-items: center;
     cursor: pointer;
 }
+
+
 .login{
     /* margin-right: 10px; */
    height: 30px;
     display: flex;
     padding: 4px;
+}
+.login:hover{
+    transform: scale(1.2);
+  transition: transform 0.5s ease;
 }
 
 .cart{
@@ -73,6 +81,11 @@
     height: 55px;
     display: flex;
     padding: 4px;
+}
+.cart:hover{
+    transform: scale(1.2);
+  transition: transform 0.5s ease;
+  
 }
 
 li {
@@ -163,6 +176,10 @@ li {
     padding-bottom: 10px; */
     padding: 15px 30px;
     text-decoration: none;
+}
+.about:hover{
+    transform: scale(1.05);
+  transition: transform 0.5s ease;
 }
 .foot{
     margin-top: 10px;
